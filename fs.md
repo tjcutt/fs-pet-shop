@@ -98,7 +98,7 @@ $ git checkout -- pets.json
 We have provided tests for you to check your work. To run the command for this exercise, run the following command.
 
 ```shell
-$ npm test test/pets.test.js
+$ 
 ```
 
 ## Bonus
