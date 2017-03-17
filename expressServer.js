@@ -40,10 +40,12 @@ app.get('/pets/:id', (req, res) => {
   });
 });
 
-app.use( (req, res) => {
+app.use((req, res) => {
   res.sendStatus(404)
 })
 
 app.listen(port, () => {
   console.log('Hey there, we are listening on ', port);
 })
+
+module.exports = app;
